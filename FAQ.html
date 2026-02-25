@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaming FAQ</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .faq-section {
+            max-width: 800px;
+            margin: 50px auto;
+        }
+        .accordion-button {
+            font-weight: bold;
+            background: rgba(255, 255, 255, 0.1);
+            color: #fff;
+        }
+        .accordion-button:not(.collapsed) {
+            background: rgba(255, 215, 0, 0.2);
+            color: #ffd700;
+            box-shadow: 0 0 20px rgba(255, 215, 0, 0.3);
+        }
+        .accordion-button:focus {
+            box-shadow: none;
+        }
+        .accordion-item {
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 215, 0, 0.3);
+            margin-bottom: 10px;
+            border-radius: 15px;
+            overflow: hidden;
+        }
+        .accordion-body {
+            background: rgba(0, 0, 0, 0.3);
+            color: rgba(255, 255, 255, 0.9);
+        }
+        .accordion-body a {
+            color: #ffd700;
+            text-decoration: none;
+        }
+        .accordion-body a:hover {
+            text-shadow: 0 0 10px rgba(255, 215, 0, 0.7);
+        }
+    </style>
+</head>
+<body class="animated-bg">
+    
+    <!-- Floating Particles -->
+    <div class="particles">
+        <ul>
+            <li class="particle"></li>
+            <li class="particle"></li>
+            <li class="particle"></li>
+            <li class="particle"></li>
+            <li class="particle"></li>
+            <li class="particle"></li>
+            <li class="particle"></li>
+            <li class="particle"></li>
+            <li class="particle"></li>
+            <li class="particle"></li>
+        </ul>
+    </div>
+
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Gaming World</a>
+            <div class="d-flex gap-3">
+                <a class="nav-link text-white" href="index.html">Home</a>
+                <a class="nav-link text-white" href="about.html">About</a>
+                <a class="nav-link text-white" href="games.html">Games</a>
+                <a class="nav-link text-white" href="contact.html">Contact</a>
+                <a class="nav-link text-white" href="FAQ.html">FAQ</a>
+            </div>
+        </div>
+    </nav>
+
+    <section class="faq-section content-section">
+        <h2 style="color: #ffd700; text-shadow: 0 0 20px rgba(255, 215, 0, 0.5); text-align: center; margin-bottom: 40px;">Frequently Asked Questions</h2>
+        <div class="accordion" id="faqAccordion">
+
+            <!-- Question 1 -->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="faqHeading1">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse1">
+                        How does the subscription model work?
+                    </button>
+                </h2>
+                <div id="faqCollapse1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">
+                        Subscribe to Gaming World for <strong>₹799/month</strong> and get access to official games at exclusive discounted prices (up to 55% off)! We partner with official platforms to bring you authentic games at lower prices.
+                    </div>
+                </div>
+            </div>
+
+            <!-- Question 2 -->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="faqHeading2">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse2">
+                        What payment methods do you accept?
+                    </button>
+                </h2>
+                <div id="faqCollapse2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">
+                        We accept all major payment methods including UPI, Credit/Debit Cards, Net Banking, and Wallets. All payments are processed securely.
+                    </div>
+                </div>
+            </div>
+
+            <!-- Question 3 -->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="faqHeading3">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse3">
+                        Are the games official and authentic?
+                    </button>
+                </h2>
+                <div id="faqCollapse3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">
+                        Yes! We partner directly with official gaming platforms to provide 100% authentic games. All purchases come with official licenses and keys.
+                    </div>
+                </div>
+            </div>
+
+            <!-- Question 4 -->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="faqHeading4">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse4">
+                        Can I cancel my subscription anytime?
+                    </button>
+                </h2>
+                <div id="faqCollapse4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">
+                        Yes, you can cancel your subscription anytime from your account settings. The subscription will remain active until the end of the current billing period.
+                    </div>
+                </div>
+            </div>
+
+            <!-- Question 5 -->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="faqHeading5">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse5">
+                        How do I contact support?
+                    </button>
+                </h2>
+                <div id="faqCollapse5" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">
+                        You can contact us through our <a href="contact.html">Contact Us</a> page, email us at dhirajpurvey07@gmail.com, or call us at 9102157271.
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Pagination -->
+    <nav aria-label="Page navigation">
+        <ul class="pagination justify-content-center mt-4">
+            <li class="page-item">
+                <a class="page-link" href="games.html">Previous</a>
+            </li>
+            <li class="page-item"><a class="page-link" href="index.html">1</a></li>
+            <li class="page-item"><a class="page-link" href="games.html">2</a></li>
+            <li class="page-item active"><a class="page-link" href="FAQ.html">3</a></li>
+        </ul>
+    </nav>
+
+    <footer class="text-center mt-4">
+        <p>&copy; 2025 Gaming World. All rights reserved.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
